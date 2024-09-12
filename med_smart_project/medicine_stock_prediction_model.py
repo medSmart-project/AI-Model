@@ -66,6 +66,17 @@ mse_test = mean_squared_error(y_test, predictions_test)
 print(f'Mean Squared Error on Test Set: {mse_test}')
 
 # Calculate R-squared score on the test set
-r2_test = r2_score(y_test,predictions_test)
+r2_test = r2_score(y_test, predictions_test)
 print(f'R-squared on Test Set: {r2_test}')
+
+"""
+Mean Squared Error on Train Set: 80.94242945270766
+R-squared on train Set: 0.8828434081680618
+Mean Squared Error on Validation Set: 83.77399582226143
+R-squared on Validation Set: 0.8766721913577102
+Mean Squared Error on Test Set: 79.47034261050811
+R-squared on Test Set: 0.8846726881508655
+
+finally we can say the accuracy of this model is almost 0.9 ---> 90% 
+"""
 
