@@ -39,5 +39,3 @@ The model is evaluated using Mean Squared Error (MSE) and R-squared scores on th
 The model shows promising performance with an R-squared value of approximately 0.88 on both the training and test sets, indicating that it can predict medicine stock levels with a high degree of accuracy.
 
 ---
-
-You can modify and expand this template to include more detailed information about the model, the dataset, the preprocessing steps, and any other relevant details about the project.
