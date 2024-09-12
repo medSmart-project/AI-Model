@@ -23,5 +23,5 @@ def predict():
     return jsonify({'prediction': prediction[0]})
 
 # Run the Flask app
-if __name__ == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
