@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 
 
-data = pd.read_csv('semi_med.csv')
+data = pd.read_csv('med_dataset.csv')
 
 # features (demand and stock levels) , target variable (Difference Between Dates)
 X = data[['demand', 'quantity']]
